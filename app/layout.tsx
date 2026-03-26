@@ -7,11 +7,23 @@ export const metadata: Metadata = {
     "Hainails in Bregenz: Nageldesign, Gel-Nägel, Acryl, Maniküre, Pediküre, Wimpern & Augenbrauen. Vietnamesische Nail-Art trifft österreichische Präzision.",
   keywords: "Nagelstudio Bregenz, Gel Nägel, Acryl, Maniküre, Pediküre, Wimpern, Augenbrauen, Beauty Spa Vorarlberg",
   openGraph: {
-    title: "Hainails – Nagelstudio & Beauty Spa | Bregenz",
-    description:
-      "Premium Nageldesign und Wellness in Bregenz. Gel-Nägel, Acryl, Maniküre, Pediküre, Wimpern & mehr.",
+    title: "Hainails Nagelstudio Bregenz",
+    description: "Professionelle Nagelpflege, Gel-Nägel & Nail Art in Bregenz",
+    images: [
+      {
+        url: '/og?name=Hainails%20Nagelstudio&tagline=Nagelstudio%20%C2%B7%20Wellness%20%C2%B7%20Sch%C3%B6nheit&color=%23E8B4B8',
+        width: 1200,
+        height: 630,
+      },
+    ],
     type: "website",
     locale: "de_AT",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hainails Nagelstudio Bregenz",
+    description: "Professionelle Nagelpflege, Gel-Nägel & Nail Art in Bregenz",
+    images: ['/og'],
   },
 };
 
