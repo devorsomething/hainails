@@ -2,7 +2,7 @@
 
 import Head from "next/head";
 import Image from "next/image";
-import WhatsAppButton from '@/components/WhatsAppButton';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 const SERVICES = [
   {
