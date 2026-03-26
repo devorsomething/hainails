@@ -2,6 +2,7 @@
 
 import Head from "next/head";
 import Image from "next/image";
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const SERVICES = [
   {
@@ -664,6 +665,7 @@ export default function HomePage() {
           </div>
         </div>
       </footer>
+      <WhatsAppButton phone="+43 664 345 6789" />
     </main>
   );
 }
